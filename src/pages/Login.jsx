@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
-import FaceLogin from "../components/faceLogin";
+import FaceLogin from "../components/FaceLogin.jsx";
 import bgVideo from "../assets/bg-video.mp4";
 import { LuEye, LuEyeOff, LuSmile } from "react-icons/lu";
 import { ToastContainer, toast } from "react-toastify";
